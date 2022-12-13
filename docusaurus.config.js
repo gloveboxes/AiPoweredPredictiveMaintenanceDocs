@@ -10,7 +10,7 @@ const config = {
   tagline: "AI Powered Predictive Maintenance",
 
   url: "https://gloveboxes.github.io",
-  baseUrl: "/AiPoweredPredictiveMaintenance/",
+  baseUrl: "/AiPoweredPredictiveMaintenanceDocs/",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "gloveboxes", // Usually your GitHub org/user name.
-  projectName: "AiPoweredPredictiveMaintenance", // Usually your repo name.
+  projectName: "AiPoweredPredictiveMaintenanceDocs", // Usually your repo name.
 
   deploymentBranch: "gh-pages", // Branch that GitHub pages will deploy from.
 
@@ -43,7 +43,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/gloveboxes/AiPoweredPredictiveMaintenance/tree/docs",
+          editUrl: "https://github.com/gloveboxes/AiPoweredPredictiveMaintenanceDocs/tree/docs",
         },
         blog: false,
         theme: {
