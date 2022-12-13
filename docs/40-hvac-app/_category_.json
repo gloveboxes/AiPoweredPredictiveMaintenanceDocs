@@ -1,0 +1,7 @@
+{
+    "label": "HVAC app",
+    "link": {
+      "type": "generated-index",
+      "description": "Learn how to compile the dotnet client app."
+    }
+  }

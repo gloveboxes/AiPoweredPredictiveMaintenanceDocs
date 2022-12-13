@@ -1,0 +1,7 @@
+{
+    "label": "Azure Sphere",
+    "link": {
+      "type": "generated-index",
+      "description": "Learn how to compile the dotnet client app."
+    }
+  }
