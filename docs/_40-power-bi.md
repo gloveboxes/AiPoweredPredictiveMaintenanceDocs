@@ -2,7 +2,7 @@
 
 ![The image shows Power BI Reporting](img/power-bi-report.png)
 
-GitHub metrics are stored in an Azure SQL database. Power BI is used to visualize the metrics data.
+Predictive maintenance data is stored in an Azure SQL database. Power BI is used to visualize the metrics data.
 
 ![The image shows reporting with Power BI](img/power-bi-report-example.png)
 
