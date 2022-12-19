@@ -12,7 +12,15 @@
     az account list-locations --query "[].{Name:name, DisplayName:displayName}" -o table
     ```
 
-1. Run the following command to deploy the GitHub Metrics solution.
+1. Run the following command to deploy the predictive maintenance solution.
+
+    You will be prompted for the following information:
+
+    - The application name. This is an arbitrary name and is used as part of the hash to create unique names for the Azure resources.
+    - The Sql Server user name. This is the user name for the Sql Server database.
+    - The Sql Server password. This is the password for the Sql Server database.
+
+    For Windows users, you can run the following PowerShell commands. For macOS and Linux users, you can run the following Bash commands.
 
     **PowerShell**
 
