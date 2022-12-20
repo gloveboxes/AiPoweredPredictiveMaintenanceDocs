@@ -5,14 +5,12 @@
 1. Run the following command to start the HVAC simulator app:
 
     ```text
-    DotnetClient -d hvac_simulator, -o your-open-weather-map-api-key -s your-dps-id_scope -k your-dps-device-key
+    DotnetClient ../hvac.env
     ```
 
 The simulator app will start and connect to Azure IoT Hub. The app will send telemetry data to IoT hub every 20 seconds.
 
-## Generate anomaly predictions
-
-With the HVAC simulator in focus, press the **r** key to generate a **rattle** anomaly prediction. The **rattle** anomaly prediction will remain in effect for 2 minutes, whichever comes first.
+Leave the app running in the command-line window for at least a 2 hours, and ideally a day or two. The app will automatically generate random anomaly predictions at random intervals. The app will send the predictions to IoT Hub as a telemetry message.
 
 ## Stop the app
 

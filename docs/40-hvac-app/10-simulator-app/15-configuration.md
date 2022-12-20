@@ -1,5 +1,11 @@
 # Configuration
 
+## Update the HVAC configuration file
+
+1. With your favorite text editor, open the **DotnetClient/hvac.env** file.
+1. Update the **ID_SCOPE** key with the **Azure DPS ID Scope** value from the deployment output.
+1. Leave the configuration file open, you will need to update it again in the next step.
+
 ## Create a Azure DPS enrolment group
 
 1. From your browser, navigate to the [Azure Portal](https://portal.azure.com).
@@ -23,7 +29,7 @@
     az iot dps enrollment-group compute-device-key --rid hvac_simulator --key <your-primary-key> 
     ```
 
-1. Copy the derived device key to the clipboard and save it somewhere safe as you will need this data when you start the HVAC simulator app.
+1. Update the **DotnetClient/hvac.env** file with the derived device key.
 
 ## Create an Open Weather Map API key
 
@@ -37,12 +43,5 @@ Follow these steps to create a free Open Weather Map API key:
 1. Subscribe to the Current Weather Data. Select the **Free** option, and select **Get API key**.
 1. Repeat and subscribe to the Air Pollution API. Select the **Free** option, and select **Get API key**.
 1. Select **API Keys** from the Open Weather Map site.
-1. Copy the Open Weather Map API key and save it somewhere safe as you will need this data when you start the HVAC simulator app.
-
-## Update the HVAC simulator app configuration
-
-1. Open the Publish/prebuilt/.env file with your favorite text editor and update the following keys values.
-    - **DEVICE_ID**
-    - **DERIVED_KEY**
-    - **OWM_KEY**
-1. Save the file.
+1. Update the **DotnetClient/hvac.env** file with the **API key** value.
+1. Save the **DotnetClient/hvac.env** file.

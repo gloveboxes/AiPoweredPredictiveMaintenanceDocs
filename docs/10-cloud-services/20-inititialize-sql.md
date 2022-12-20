@@ -5,7 +5,7 @@
 For now a manual process. This may be automated in the future.
 
 1. Open the Azure Portal
-1. Navigate to the Azure SQL Database, by default named `predictive-maintenance`
+1. Navigate to the Azure SQL Database named `predictive-maintenance`
 1. Open the Query Editor
 1. Authenticate with the Azure SQL Database using the SQL Admin user and password you used when you deployed the solution.
 1. Create the **_telemetry_** table
