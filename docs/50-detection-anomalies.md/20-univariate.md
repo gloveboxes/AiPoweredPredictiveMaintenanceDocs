@@ -1,8 +1,8 @@
 # Univariate anomaly detection
 
-No model training is required for univariate anomaly detection.
+Azure Univariate Anomaly Detection detects anomalies in your time series data with a single variable, for example temperature over time. You don't have to build a model to use the service. You just send your data to the anomaly detection API and it will return the predicted anomalies.
 
-Univariate anomaly detection detects anomalies in your data. Data can be sent to the anomaly detection API in one of two ways:
+The data can be sent to the anomaly detection API in one of two ways:
 
 1. Batch inference - You can send a batch of data to the anomaly detection API and it will return the predicted anomalies for the data.
 1. Streaming inference - You can send data to the anomaly detection API one data point at a time. The anomaly detection API will return the predicted anomaly for the data point.
