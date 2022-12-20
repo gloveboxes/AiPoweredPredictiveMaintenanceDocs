@@ -5,7 +5,7 @@
 1. Change to the `infra` folder in the cloned repository.
 
     ```bash
-    cd AzureSphereMLPredictiveMaintenanceHybrid/infra
+    cd AiPoweredPredictiveMaintenance/infra
     ```
 
 1. You need to set the Azure location where you want to deploy the solution. The following command lists the available locations.
