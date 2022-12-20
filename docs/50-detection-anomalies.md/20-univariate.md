@@ -1,5 +1,14 @@
 # Univariate anomaly detection
 
+No model training is required for univariate anomaly detection.
+
+Univariate anomaly detection detects anomalies in your data. Data can be sent to the anomaly detection API in one of two ways:
+
+1. Batch inference - You can send a batch of data to the anomaly detection API and it will return the predicted anomalies for the data.
+1. Streaming inference - You can send data to the anomaly detection API one data point at a time. The anomaly detection API will return the predicted anomaly for the data point.
+
+You can find out more Azure Anomaly Detection from the [Azure Anomaly Detector](https://learn.microsoft.com/azure/cognitive-services/anomaly-detector/) documentation.
+
 ## Update the Notebook environment config file
 
 Using your favorite text editor, open the file `Notebooks/.env` and update the following values using the values from the deployment output that you saved in the previous section.
