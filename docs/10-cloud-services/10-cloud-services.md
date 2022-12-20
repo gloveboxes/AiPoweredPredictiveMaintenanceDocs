@@ -62,8 +62,4 @@ telemetry_function_app_key:
   value: 'Azure Function Host Key: OuFbupjlv-jhmvBhbSwTzvOm0i370wlBjzFa9mUMeUc0AzFu1Mszxw=='
 ```
 
-1. Save the output to a file. You will need the values for the following parameters later in the lab:
-    - **Azure DPS ID Scope**
-    - **function_app_name**,
-    - **telemetry_function_app_endpoint**,
-    - **telemetry_function_app_key**.
+1. Save the output to a file. You will need the values for the following parameters later in the lab.
