@@ -45,6 +45,7 @@ This will generate a CSV file in the **Notebooks/DemoMultivariateTraining/traini
     ```
 
 1. Open the **DemoMultivariateTraining/multivariate_train_from_timeseries_data.ipynb** notebook.
+    Note, the Notebook defaults to analyzing 7 days data for device hvac_simulator
 1. Run all the cells in the notebook.
 1. You'll notice the **Train a model** cell will take a while to run. This is because it's training the model using the data that you generated in the previous step. The training process will take a few minutes to complete. When the training process is complete. The output for this cell will be similar to the following:
 
