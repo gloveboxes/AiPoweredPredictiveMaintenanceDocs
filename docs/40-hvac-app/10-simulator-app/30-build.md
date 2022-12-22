@@ -7,15 +7,18 @@ This is optional, if you'd prefer to build the hvac simulator app yourself, you 
 
 ## Build for all platforms
 
-This will build the app for all platforms and output the binaries to the `prebuilt` folder.
-
-```bash
+1. Open a command prompt and navigate to ***AiPoweredPredictiveMaintenance\DotnetClient** folder.
+2. Run the following command to build the hvac app for all platforms and output the binaries to the `prebuilt` folder.
 
 ```ps
 ./build-all.ps1
 ```
 
 ## Platform specific build
+
+1. Open a command prompt and navigate to ***AiPoweredPredictiveMaintenance\DotnetClient** folder.
+1. Choose the platform you want to build for and run the corrosponding command.
+
 
 This will build the app for a specific platform and output the binaries to the `prebuilt` folder.
 
