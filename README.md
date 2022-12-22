@@ -1,3 +1,7 @@
+#Published docs
+
+The published version of the docs can be found [here](https://gloveboxes.github.io/AiPoweredPredictiveMaintenanceDocs).
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
