@@ -5,7 +5,9 @@ slug : /
 
 # Introduction
 
-Predictive maintenance is a technique that uses data analytics to predict when a machine is likely to fail. This allows maintenance to be scheduled before the failure occurs, reducing downtime and increasing productivity.
+Anomaly detection is a technique that uses data analytics to identify unusual patterns in data. For example, you can analysis business metrics to detect unusual patterns that indicate a problem with your business, or look at sensor data to detect unusual patterns that indicate a problem with a machine.
+
+This workshop focuses on using [Azure Anomaly Detector](https://azure.microsoft.com/products/cognitive-services/anomaly-detector) for predictive maintenance. Predictive maintenance is a technique that uses data analytics to predict when a machine is likely to fail. This allows maintenance to be scheduled before the failure occurs, reducing downtime and increasing productivity.
 
 This solution is themed around an [HVAC](https://en.wikipedia.org/wiki/Heating,_ventilation,_and_air_conditioning) system, because it is a common use case for predictive maintenance. HVAC systems are found in our homes, offices, and factories. The solution uses environment and vibration data to predict when a machine is likely to fail.
 
