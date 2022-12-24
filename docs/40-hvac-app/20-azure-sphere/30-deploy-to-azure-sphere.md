@@ -1,7 +1,8 @@
 # Deploy to Azure Sphere
 
-## Clone the predictive maintenance project
+## Set up an Azure IoT Hub for Azure Sphere
 
+Follow the instruction to [set up an Azure IoT Hub for Azure Sphere](https://learn.microsoft.com/azure-sphere/app-development/setup-iot-hub). Skip setting up the IoT Hub as it was created in the previous step.
 
 ## Open the high-level predictive maintenance app in Visual Studio Code
 
