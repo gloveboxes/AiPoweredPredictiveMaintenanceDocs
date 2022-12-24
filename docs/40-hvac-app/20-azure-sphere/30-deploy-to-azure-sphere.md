@@ -4,7 +4,7 @@
 
 Follow the instruction to [set up an Azure IoT Hub for Azure Sphere](https://learn.microsoft.com/azure-sphere/app-development/setup-iot-hub). Skip setting up the IoT Hub as it was created in the previous step.
 
-## Open the high-level predictive maintenance app in Visual Studio Code
+## Open the high-level predictive maintenance app
 
 1. Start Visual Studio Code
 1. From the Visual Studio Code main menu, select **File**, then select **Open folder**.
